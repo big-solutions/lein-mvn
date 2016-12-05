@@ -4,18 +4,24 @@ A Leiningen plugin to do many wonderful things.
 
 ## Usage
 
-FIXME: Use this for user-level plugins:
+To use this plugin, copy the following:
 
-Put `[lein-mvn "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your `:user`
-profile.
 
-FIXME: Use this for project-level plugins:
+[![Clojars Project](https://img.shields.io/clojars/v/big-solutions/lein-mvn.svg)](https://clojars.org/big-solutions/lein-mvn)
 
-Put `[lein-mvn "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
 
-FIXME: and add an example usage that actually makes sense:
+into the `:plugins` vector of your project.clj or your `:user` profile.
 
-    $ lein mvn
+
+Run the `lein-mvn` plugin:
+
+    $ lein mvn ... a list of maven commands and options
+    
+e.g.
+
+    $ lein mvn clean compile install
+    $ lein mvn -V
+    $ lein mvn -f ./other/pom.xml jetty:run
 
 ## License
 

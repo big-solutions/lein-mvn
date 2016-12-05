@@ -1,4 +1,4 @@
-(defproject big-solutions/lein-mvn "2.7.1"
+(defproject big-solutions/lein-mvn "0.1.0"
   :description "Run Maven commands from Leiningen"
   :url "https://github.com/big-solutions/lein-mvn"
   :license {:name "Eclipse Public License"
