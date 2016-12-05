@@ -1,6 +1,6 @@
 # lein-mvn
 
-A Leiningen plugin to do many wonderful things.
+A Leiningen plugin to run Maven commands.
 
 ## Usage
 
