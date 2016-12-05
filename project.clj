@@ -4,4 +4,6 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.apache.maven/maven-embedder "3.0.4"]]
+  :deploy-repositories [["releases" {:url          "https://clojars.org/repo"
+                                     :sign-releases false}]]
   :eval-in-leiningen true)
